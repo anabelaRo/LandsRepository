@@ -6,7 +6,7 @@
              Title="Login">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="10,20,10,0">
+            <StackLayout Padding="10,20,10,5">
                 <Label
                     FontAttributes="Bold"
                     FontSize="Large"
@@ -48,6 +48,8 @@
                         Placeholder="Enter your password...">
                     </Entry>
                 </Grid>
+                <ActivityIndicator>
+                </ActivityIndicator>
                 <StackLayout
                     Orientation="Horizontal">
                      <Label
@@ -56,11 +58,15 @@
                         VerticalOptions="Center">
                     </Label>
                     <Switch
+                        IsToggled="True"
                         HorizontalOptions="End">
                     </Switch>
                 </StackLayout>
-                <ActivityIndicator>
-                </ActivityIndicator>
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Forgot your password?"
+                    TextColor="Blue">
+                </Label>
                 <StackLayout
                     Margin="30,0">
                      <Button 
