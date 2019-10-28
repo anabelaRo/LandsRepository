@@ -2,10 +2,10 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lands.App"
-             xmlns:infra1="clr-namespace:Lands.Infrastructure">
+             xmlns:infra="clr-namespace:Lands.Infrastructure">
     <Application.Resources>
         <ResourceDictionary>
-            <infra1:InstanceLocator x:Key="Locator"/>
+            <infra:InstanceLocator x:Key="Locator"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
